@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR Shop</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h2>OUR SHOP</h2>
+            <p>PRODUCT MANAGMENT SYSTEM  </p>
+        </div>
+        <div id="cleandata"><p>you should fill the title,price and category fields by data, the count value is should be less than or equal 100</p>
+           </div>
+
+        <div class="inputs">
+            <input type="text" id="title" placeholder="title">
+            <div class="totalprice">
+                <input onkeyup="getTotal()" type="number" id="price" placeholder="price">
+                <input onkeyup="getTotal()" type="number" id="taxes" placeholder="taxes">
+                <input onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+                <input onkeyup="getTotal()" type="number" id="discount" placeholder="discount">
+                <small id="total"></small>
+            </div>
+            <input type="number" id="count" placeholder="count">
+            <input type="text" id="category" placeholder="category">
+            <button id="submit">Create</button>
+        </div>
+        <div class="outputs">
+            <input type="text" id="search" placeholder="search" onkeyup="searchdata(this.value)">
+            <div class="searchbtns">
+                <button id="searchtitle" onclick="getSearchMood(this.id)">Search by Title</button>
+                <button id="searchcategory"onclick="getSearchMood(this.id)">Search by Category</button>
+            </div>
+            <button id="deleteAllBth" onclick="deleteAll()">Delete All</button>
+            <table>
+                <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>price</th>
+            <th>taxes</th>
+            <th>ads</th>
+            <th>discount</th>
+            <th>total</th>
+            <th>category</th>
+            <th>update</th>
+            <th>delete</th>
+                </tr>
+
+
+                <tbody id="tbody">
+                    <tr>
+                        <td>1</td>
+                        <td>asdasd</td>
+                        <td>100</td>
+                        <td>12</td>
+                        <td>14</td>
+                        <td>145</td>
+                        <td>123</td>
+                        <td>dfg</td>
+                        <th><button id="update">update</button></th>
+                        <th><button id="delete">delete</button></th>
+        
+                    </tr>
+                 
+                    
+                </tbody>
+            </table>
+
+           
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
+<script src="main.js"></script>
