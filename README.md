@@ -12,8 +12,7 @@ taxes, discounts, and quantity
 It covers Database CRUD operations.
 
 # Live video:
-
-[Live video](https://www.linkedin.com/posts/amr-gebil-557a9024a_webabrdeveloper-django-djangoabrdeveloper-activity-7094657759098368001-xZPV?utm_source=share&utm_medium=member_desktop)https://www.linkedin.com/posts/amr-gebil-557a9024a_webabrdeveloper-django-djangoabrdeveloper-activity-7094657759098368001-xZPV?utm_source=share&utm_medium=member_desktop)
+## [Live video][(https://github.com/YourUsername](https://www.linkedin.com/feed/update/urn:li:activity:7094657759098368001/)
 
 # Screenshots:
 ![Home page ](images/2.PNG)
