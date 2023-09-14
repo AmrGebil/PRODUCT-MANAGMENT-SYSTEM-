@@ -12,7 +12,7 @@ taxes, discounts, and quantity
 It covers Database CRUD operations.
 
 # Live video:
-## [Live video][(https://github.com/YourUsername](https://www.linkedin.com/feed/update/urn:li:activity:7094657759098368001/)
+## [Live video](https://www.linkedin.com/feed/update/urn:li:activity:7094657759098368001/)
 
 # Screenshots:
 ![Home page ](images/2.PNG)
