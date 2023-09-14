@@ -7,11 +7,11 @@ taxes, discounts, and quantity
 - CSS3
 - JavaScript
 
-# Usage
+# Usage:
 
 It covers Database CRUD operations.
 
-# Screenshots
+# Screenshots:
 ![Home page ](images/2.PNG)
 
 ![About Us  ](images/3.PNG)
